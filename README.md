@@ -23,7 +23,7 @@ Aqui voce vai aprender a rodar uma inteligencia artificial de forma totalmente l
 ### Clonando Repositório
 
 ```bash
-git clone <endereco git>
+git clone https://github.com/blinhares/basic_ai_assistant.git
 ```
 
 ### Dependências

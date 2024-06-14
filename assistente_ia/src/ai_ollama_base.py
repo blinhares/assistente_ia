@@ -1,5 +1,5 @@
 import ollama # type: ignore
-from .config import logger_maker
+from assistente_ia.src.config import logger_maker
 
 logger = logger_maker(__name__)
 

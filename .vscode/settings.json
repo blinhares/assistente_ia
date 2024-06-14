@@ -4,7 +4,7 @@
     ],
     "CodeGPT.apiKey": "Ollama",
     "CodeGPT.Autocomplete.provider": "Ollama - codellama:code",
-    "CodeGPT.Autocomplete.maxTokens": 696,
+    "CodeGPT.Autocomplete.maxTokens": 16,
     "CodeGPT.Autocomplete.enabled": true,
-    "CodeGPT.Autocomplete.suggestionDelay": 900
+    "CodeGPT.Autocomplete.suggestionDelay": 100
 }

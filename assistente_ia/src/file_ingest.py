@@ -28,7 +28,7 @@ from langchain.docstore.document import Document
 
 from pathlib import Path
 # Load environment variables
-from src.config import (
+from assistente_ia.src.config import (
     EMBEDDINGS_MODEL_NAME, 
     PERSIST_DIRECTORY, 
     SOURCE_DIRECTORY, 

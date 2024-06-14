@@ -1,4 +1,4 @@
-from .ai_ollama_base import AIBase
+from assistente_ia.src.ai_ollama_base import AIBase
 import ollama # type: ignore
 from langchain.chains import RetrievalQA
 from langchain_community.embeddings import HuggingFaceEmbeddings
@@ -6,7 +6,7 @@ from langchain_core.callbacks import StreamingStdOutCallbackHandler
 from langchain_community.vectorstores import Chroma
 from langchain_community.llms import Ollama
 import time
-from .config import (
+from assistente_ia.src.config import (
     EMBEDDINGS_MODEL_NAME, 
     PERSIST_DIRECTORY, 
     TARGET_SOURCE_CHUNKS,
